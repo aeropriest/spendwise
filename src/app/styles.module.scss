@@ -1,0 +1,42 @@
+@import './variables.module.scss';
+
+// styles.scss
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; // Full viewport height    
+    background-color: $background;
+    color: $text-color; // Apply the text color to the main container
+    font-family: 'Roboto', sans-serif; // Use Roboto font
+    font-size:small;
+    font-weight: 100;
+  }
+
+  .header {
+    font-size: 1.5rem; // Adjust the font size for h1
+    font-weight: 400; // Set a normal font weight
+  }
+  
+  .text {
+    font-size: 1rem; // Set a standard font size for paragraphs
+    font-weight: 400; // Set a normal font weight
+  }
+
+  .column {
+    flex: 1; // Each column takes up equal space
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #ccc; // Optional: Add a border for visual separation
+    height: 100vh;
+  }
+
+  .column:nth-child(1) {
+    background-color: transparent; // No background for the left column
+  }
+  
+  .column:nth-child(2) {
+    background-color: $blue-600; // Blue background for the right column
+  }
+

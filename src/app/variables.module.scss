@@ -1,13 +1,23 @@
 @import 'mixins';
 
+$background: white;
 $primary-color: #64ff00;
+$blue-600: #2563eb; // Tailwind blue-600 equivalent
+$text-color: black;
  
 :export {
   primaryColor: $primary-color;
+  blue600: $blue-600;
+  background: $background;
+  textColor: $text-color;
 }
 
 .title {
   color: $primary-color;
+}
+
+.button {
+  
 }
 
 // @include mobile(){

@@ -86,6 +86,7 @@ body {
 }
 
 $primary: red;
+$background: white;
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -95,7 +96,7 @@ body {
   //     rgb(var(--background-end-rgb))
   //   )
   //   rgb(var(--background-start-rgb));
-  background: $primary
+  background: $background
 }
 
 a {
