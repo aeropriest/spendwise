@@ -8,6 +8,9 @@ dependencies:
   '@clerk/nextjs':
     specifier: ^5.2.14
     version: 5.2.14(next@14.2.5)(react-dom@18.3.1)(react@18.3.1)
+  hono:
+    specifier: ^4.5.4
+    version: 4.5.4
   next:
     specifier: 14.2.5
     version: 14.2.5(react-dom@18.3.1)(react@18.3.1)(sass@1.77.8)
@@ -1533,6 +1536,11 @@ packages:
     dependencies:
       function-bind: 1.1.2
     dev: true
+
+  /hono@4.5.4:
+    resolution: {integrity: sha512-k2IguJfRgNCpDbAfpxk+o+fZBLFHl4+eIZUpjc1ItZWHeZ37SmT3efA1UpkIaC0hSf1NJg0E79/wWn6g9LQ4Cw==}
+    engines: {node: '>=16.0.0'}
+    dev: false
 
   /ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
