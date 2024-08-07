@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import variables from './variables.module.scss'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <h1 style={{color: variables.primaryColor}}>Welcome to SpendWise <a href="#" >Click here</a></h1>
+        <h1 className={variables.titles}>Welcome to SpendWise <a href="#" >Click here</a></h1>
+        <div className={variables.titles}>This is the other title</div>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
