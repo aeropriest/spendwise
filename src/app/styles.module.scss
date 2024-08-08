@@ -67,9 +67,22 @@
       display: flex;
       gap: 3rem;
       color: $white-text;
-      font-size: large;
-      margin: 0.5rem 8rem;
+      font-size: 1.2rem;
+      margin: 0rem 8rem;
       justify-content: start;
+
+      a {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        padding: 0.8rem 2rem; // Add padding for the hover effect
+  
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1); // Light translucent background
+          border-radius: 0.5rem; // Optional: Add rounded corners
+        }
+      }
+
     }
 
   }
