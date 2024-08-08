@@ -4,7 +4,15 @@ $background: white;
 $primary-color: #64ff00;
 $blue-600: #2563eb; // Tailwind blue-600 equivalent
 $text-color: black;
- 
+$blue-700: rgb(25, 118, 210);
+$blue-500: rgb(33, 150, 243);
+
+:export {
+  blue700: $blue-700;
+  blue500: $blue-500;
+  blue700: $blue-700;
+  blue500: $blue-500;
+}
 :export {
   primaryColor: $primary-color;
   blue600: $blue-600;

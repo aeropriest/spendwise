@@ -40,3 +40,14 @@
     background-color: $blue-600; // Blue background for the right column
   }
 
+  .header {
+    // width: calc(100vw - 10px); // Full width minus left and right margins
+    width: 100vw;
+    height: 10rem; // Set the height to 10rem
+    margin: 0 0px; // 5px margin on the left and right
+    background: linear-gradient(to bottom, $blue-700, $blue-500); // Gradient from blue-700 to blue-500
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box; // Include padding and border in the element's total width and height
+  }
