@@ -3,11 +3,11 @@
 // styles.scss
 .main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    // align-items: center;
     height: 100vh; // Full viewport height    
     background-color: $background;
-    color: $text-color; // Apply the text color to the main container
+    color: $black-text; // Apply the text color to the main container
     font-family: 'Roboto', sans-serif; // Use Roboto font
     font-size:small;
     font-weight: 100;
@@ -41,13 +41,35 @@
   }
 
   .header {
-    // width: calc(100vw - 10px); // Full width minus left and right margins
     width: 100vw;
-    height: 10rem; // Set the height to 10rem
+    height: 50vh; // Set the height to 10rem
     margin: 0 0px; // 5px margin on the left and right
-    background: linear-gradient(to bottom, $blue-700, $blue-500); // Gradient from blue-700 to blue-500
+    padding: 3rem 4rem 0; // 1.25rem top padding, 0.625rem left and right padding, 0 bottom padding
+    background: linear-gradient(to bottom, $blue-700, $blue-400); // Gradient from blue-700 to blue-500
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    align-items: start;    
     box-sizing: border-box; // Include padding and border in the element's total width and height
+    
+    .logo {
+      // background: red;
+      justify-content: start;
+    }
+
+    .signout {
+      // background-color: green;
+      justify-content: end;
+    }
+
+    .menu {
+      // background-color: gray;
+      flex: 1;
+      display: flex;
+      gap: 3rem;
+      color: $white-text;
+      font-size: large;
+      margin: 0.5rem 8rem;
+      justify-content: start;
+    }
+
   }

@@ -5,7 +5,7 @@ export default function HeaderLogo(){
     return(
         <div>
             <Link href='/'>
-                <div>Logo</div>
+                <Image src='./logo.svg' alt='logo' width={200} height={200}/>
             </Link>
         </div>
     )

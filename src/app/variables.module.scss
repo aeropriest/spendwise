@@ -3,21 +3,24 @@
 $background: white;
 $primary-color: #64ff00;
 $blue-600: #2563eb; // Tailwind blue-600 equivalent
-$text-color: black;
-$blue-700: rgb(25, 118, 210);
-$blue-500: rgb(33, 150, 243);
+$black-text: black;
+$white-text: white;
+$blue-700: #1e59de;
+$blue-500: #418bf8;
+$blue-400: #60A5FA;
+$blue-300: #93C5FD;
 
 :export {
   blue700: $blue-700;
   blue500: $blue-500;
-  blue700: $blue-700;
-  blue500: $blue-500;
-}
-:export {
+  blue400: $blue-400;
+  blue300: $blue-300;
+
   primaryColor: $primary-color;
   blue600: $blue-600;
   background: $background;
-  textColor: $text-color;
+  blackText: $black-text;
+  whiteText: $white-text;
 }
 
 .title {
